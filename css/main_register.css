@@ -1,0 +1,109 @@
+.container__login{
+    padding: 100px 0;
+    background-image: url(https://www.bing.com/th?id=OIP.80fmzqoZiy1U-L7ngTEhsgHaEK&w=202&h=106&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.flex{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.form__login{
+    width: 500px;
+    /* height: 620px; */
+    margin: 2rem auto;
+    /* box-shadow: inset 14px 14px 20px #cbced1, inset -14px -14px 20px white; */
+    padding:20px;
+    background-color:#ecf0f3;
+    border-radius: 10px;
+}
+
+.container__login-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.form__login-input{
+    flex: 1;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+    background-color: #ecf0f3;
+    height: 40px;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.container__login-heading-register{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.container__login-heading-login{
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+label{
+    font-size: 24px;
+    margin-top: 2rem;
+}
+
+.button__register{
+    flex: 1;
+    border-radius: 50px;
+    height: 40px;
+    margin-top: 2rem;
+    outline: none;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+}
+
+.container__login--contact{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.container__login--item{
+    flex: 1;
+    background-color: blue;
+    padding: 7px 0 7px 4px;
+    color: var(--white-color);
+    font-size: 13px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.container__login-icon{
+    font-size: 2rem;
+    color: var(--white-color);
+    margin-right: 15px;
+}
+
+.container__login--item-2{
+    flex: 1;
+    background-color: var(--white-color);
+    padding: 7px 0 7px 4px;
+    color: var(--text-color);
+    font-size: 13px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.container__login-icon-2{
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-right: 5px;
+
+}
